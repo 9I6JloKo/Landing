@@ -6,13 +6,13 @@
         <title>Robinzone Crusoe</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
-        <script src='main.js'></script>
+        <script src='js/js.js'></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <header>
+    <body id="beginning">
+        <header id="header">
             <p class="slogan">Вы от нас просто<br>не сможете уйти</p>
             <div class="img_h1_img">
                 <div>
@@ -40,8 +40,8 @@
                             <img src="images/luchshie-10-ostrovov7.jpg">
                             <div>
                                 <h2>Ешь и выживай</h2>
-                                <p>Конкурс, который проверяет на сколько ваш желудок стальной. Не все смогут пройти финал, но и приз достойный</p>
-                                <div class="action_button"><a href="">Записаться<br>на конкурс</a></div>
+                                <p>Конкурс, который проверяет на сколько ваш желудок стальной. Не все смогут пройти финал но и приз достойный</p>
+                                <a href="">Записаться<br>на конкурс</a>
                             </div>
                     </article>
                 </section>
@@ -57,38 +57,39 @@
                     </ul>
                 </div>
                 -->
-                <section>
+                <section class="second_section">
                     <article>
                         <img src="images/meet.jpg">
                         <div>
                             <h2>Акция</h2>
-                            <p>Акция проходит для того, чтобы показать насколько велик наш мир и насколько большая у человека фантазия когда дело идёт о готовке.<br>Если сможете съесть 3 кг бифштсекса разного сорта мяса то мы вас отправим в незабываемое путешествия из перечня списка.</p>
-                            <p>(со всеми пунктами коонкурса вы можете ознакомится нажав на форму с верху)</p>
+                            <p class="bigger_P">Акция проходит для того, чтобы показать насколько велик наш мир и насколько большая у человека фантазия когда дело идёт о готовке. Если сможете съесть 3 кг бифштсекса разного сорта мяса то мы вас отправим в незабываемое путешествия из перечня списка.</p>
+                            <p class="smaller_P">(со всеми пунктами конкурса вы можете ознакомиться, нажав на форму сверху)</p>
                         </div>
                     </article>
                 </section>
                 <section>
                     <article>
-                        <div>
-                            <img src="">
-                            <h2>Преимущества</h2>
-                            <p>У нас когда при покупке путёвки вам могут предложить спец. камеру которая устанавливается у вас дома. Она легко включается выключается кнопкой на задней части корпуса. Благодаря ней вам не придётся волноваться о безопасности вашего жилья.</p>
-                        </div>
+                        <div class="shadow_div">
+                            <img src="images/istockphoto-1267129889-612x612.jpg">
+                            <div>
+                                <h2>Преимущества</h2>
+                                <p>У нас когда при покупке путёвки вам могут предложить спец. камеру которая устанавливается у вас дома. Она легко включается выключается кнопкой на задней части корпуса. Благодаря ней вам не придётся волноваться о безопасности вашего жилья.</p>
+                            </div>
                     </article>
                 </section>
-                <section>
+                <section class="prices">
                     <h2>Прайс-лист на путевки</h2>
                     <p>Цены складываются из ваших пожеланий</p>
                     <table>
-                        <tr><th>Страны</th><th>Отели</th><th>Количество людей</th></tr>
-                        <tr><td>Канада:643€</td><td>5 звезд:547€</td><td>5 человек: скидка 17%</td></tr>
-                        <tr><td>Италия:80€</td><td>4 звезды:284€</td><td>4 человека: скидка 12%</td></tr>
-                        <tr><td>Греция:226€</td><td>3 звезды:547€</td><td>3 человека: скидка 8%</td></tr>
-                        <tr><td>Швейцария:91€</td><td>2 звезды:547€</td><td>2 человека: скидка 5%</td></tr>
-                        <tr><td>Германия:117€</td><td>1 звезда:547€</td><td>1 человек: скидка 0%</td></tr>
+                        <tr class="top_table_first_row"><th>Страны</th><th>Отели</th><th class="right_table">Количество людей</th></tr>
+                        <tr><td>Канада:643€</td><td>5 звезд:547€</td><td class="right_table">5 человек: скидка 17%</td></tr>
+                        <tr><td>Италия:80€</td><td>4 звезды:284€</td><td class="right_table">4 человека: скидка 12%</td></tr>
+                        <tr><td>Греция:226€</td><td>3 звезды:547€</td><td class="right_table">3 человека: скидка 8%</td></tr>
+                        <tr><td>Швейцария:91€</td><td>2 звезды:547€</td><td class="right_table">2 человека: скидка 5%</td></tr>
+                        <tr class="bottom_table"><td>Германия:117€</td><td>1 звезда:547€</td><td class="right_table">1 человек: скидка 0%</td></tr>
                     </table>
-                    <p>Более подробно можете узнать на нашем сайте</p>
-                    <p>подробнее</p>
+                    <p class="p_below_table">Более подробно можете узнать на нашем сайте</p>
+                    <p><a href="">подробнее...</a></p>
                 </section>
                 <section>
                     <h2>Отзывы</h2>
@@ -159,7 +160,7 @@
                     </figure>
                 </section>
             </main>
-            <img src="">
+            <a href="#beginning"><img class="navigation" src="images/home.PNG" id></a>
         </div>
     </body>
 </html>
