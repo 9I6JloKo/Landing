@@ -6,7 +6,6 @@
         <title>Robinzone Crusoe</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
-        <script src='js/js.js'></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
@@ -25,7 +24,7 @@
             </div>
             <nav>
                 <div class="nav">
-                    <p><a href="#prices">Прайс лист</a></p>
+                    <p><a href="#prices">Прайс лист</a></p>
                     <p><a href="#messages">Отзывы</a></p>
                     <p><a href="#partners">Партнеры</a></p>
                     <p><a href="#aboutUs">О нас</a></p>
@@ -38,22 +37,25 @@
                 <section>
                     <article>
                             <img src="images/luchshie-10-ostrovov7.jpg">
-                            <div>
+                            <div class="column_reverse">
                                 <h2>Ешь и выживай</h2>
                                 <p>Конкурс, который проверяет на сколько ваш желудок стальной. Не все смогут пройти финал но и приз достойный</p>
-                                <a id="BTA" href="">Записаться<br>на конкурс</a>
+                                <a onclick="message_form()">Записаться<br>на конкурс</a>
                             </div>
                     </article>
                 </section>
-                <div id = "registration">
-                    <p>Конкурс проходит в городе Таллинн на главной площади.<br>Ждём всех желающих<br>После регистрации к вам на почту прийдёт код, по которому<br>вы сможете участвовать в конкурсе</p>
-                    <ul type="none">
-                        <li>Имя:<input type="text"></li>
-                        <li><span>Фамилия:</span><input type="text"></li>
-                        <li><span>Телефон:</span><input type="text"></li>
-                        <li><span>Почта:</span><input type="text"></li>
-                        <input type="submit" placeholder="Зарегистрироваться">
-                    </ul>
+                <div id = "height_form" hidden class="height_form">
+                    <form id="registration" method="POST">
+                        <img onclick="message_form()" src="images/17047.png">
+                        <p>Конкурс проходит в городе Таллинн на главной площади.<br>Ждём всех желающих<br>После регистрации к вам на почту прийдёт код, по которому<br>вы сможете участвовать в конкурсе</p>
+                        <div class="reg_info">
+                            <label>Имя:</label><input type="text">
+                            <label>Фамилия:</label><input type="text">
+                            <label>Телефон:</label><input type="text">
+                            <label>Почта:</label><input type="text">
+                            <input type="submit" value="Зарегистрироваться">
+                        </div>
+                    </form>
                 </div>
                 <section class="second_section">
                     <article>
@@ -87,7 +89,7 @@
                         <tr class="bottom_table"><td>Германия:117€</td><td>1 звезда:547€</td><td class="right_table">1 человек: скидка 0%</td></tr>
                     </table>
                     <p class="p_below_table">Более подробно можете узнать на нашем сайте</p>
-                    <p><a href="">подробнее...</a></p>
+                    <p><a target=»_blank» href="images/prices.png" download>подробнее...</a></p>
                 </section>
                 <section id="messages">
                     <div class="shadow_div_second">
@@ -161,7 +163,7 @@
                     <h2>Контакты</h2>
                     <div class="contacts">
                         <div>
-                            <p>Телефон(директор)<br>+37259024698</p>
+                            <p>Телефон (директор)<br>+37259024698</p>
                             <p>Телефон зама<br>+37256892366</p>
                             <p>Телефон секретаря<br>+37258362556</p>
                         </div>
@@ -174,5 +176,6 @@
             </main>
             <a href="#beginning"><img class="navigation" src="images/home.PNG" id></a>
         </div>
+        <script src='js/js.js'></script>
     </body>
 </html>
