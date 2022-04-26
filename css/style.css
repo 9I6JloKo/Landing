@@ -51,7 +51,7 @@ header h1 {
     margin: auto auto;
     display: flex;
     justify-content: center;
-    height: 17vh;
+    height: 170px;
 }
 .img_h1_img div {
     overflow: hidden;
@@ -166,8 +166,8 @@ label {
 }
 article img {
     width: 45%;
-    height: 42vh;
-    box-shadow: 0.524vw 1.03vh 2px rgba(0, 0, 0, 0.5);
+    height: 407px;
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
 }
 article div {
     align-self: flex-start;
@@ -188,7 +188,7 @@ article div h2 {
 }
 article div p {
     font-size: 34px;
-    line-height: 4.13vh;
+    line-height: 40px;
     display: flex;
     align-items: center;
     text-align: justify;
@@ -215,13 +215,13 @@ article a:hover {
 }
 .second_section img {
     width: 37%;
-    height: 35vh;
+    height: 340px;
 }
 .second_section div {
     width: 47%;
     margin: auto 3.14vw auto 1.57vw;
     border: 1px solid black;
-    box-shadow: 0.524vw 1.03vh 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
 }
 .bigger_P {
     font-size: 34px;
@@ -239,12 +239,12 @@ article a:hover {
     justify-content: space-between;
     border: 1px solid black;
     width: 100%;
-    box-shadow: 0.524vw 1.03vh 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
 }
 .shadow_div img {
     margin-left: 1.57vw;
     width: 33%;
-    height: 29vh;
+    height: 281px;
     box-shadow: none
 }
 .shadow_div h2 {
@@ -254,8 +254,9 @@ article a:hover {
     width: 55%;
 }
 .shadow_div div p {
+    margin: 0 30px 20px 0;
     margin-top: 1.548vh;
-    width: 31vw;
+    width: 90%;
     text-align: justify;
 }
 .prices{
@@ -277,7 +278,7 @@ table{
     border-collapse: collapse;
     text-align: center;
     border: 0.5px solid black;
-    box-shadow: 0.524vw 1.03vh 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
 }
 th, td {
     margin: 0 0;
@@ -315,7 +316,7 @@ td {
     text-align: center;
     display: block;
     border: 1px solid black;
-    box-shadow: 0.524vw 1.03vh 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
 }
 .shadow_div_second h2 {
     margin-top: 5px;
@@ -327,7 +328,7 @@ td {
     margin: 20px auto;
     display: flex;
     border: 1px solid black;
-    box-shadow: 0.524vw 1.03vh 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
 }
 .members_block img {
     width: 100px;
@@ -413,7 +414,7 @@ td {
     flex-direction: column;
     border: 1px solid black;
     width: 22%;
-    box-shadow: 0.524vw 1.03vh 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
 }
 .shadow_div_third img {
     width: 100%;
@@ -423,7 +424,12 @@ td {
     margin-bottom: 10px;
 }
 .team {
+    margin-top: 80px;
     width: 100%;
+    margin-bottom: 80px;
+}
+.team h2 {
+    margin-bottom: -20px;
 }
 .team div{
     margin: 40px auto;
@@ -431,7 +437,7 @@ td {
     align-items: center;
     justify-content: space-between;
     border: 1px solid black;
-    box-shadow: 0.524vw 1.03vh 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
 }
 .team div img {
     width: 200px;
@@ -446,17 +452,22 @@ td {
     width: 100%;
 }
 .contacts {
+    margin-top: 80px;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+#contacts h2 {
+    margin-top: 50px;
+    margin-bottom: -60px;
 }
 .contacts div {
     width: 30%;
     background-color: white;
     border: 1px solid black;
     height: fit-content;
-    box-shadow: 0.524vw 1.03vh 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
 }
 .contacts p {
     font-size: 30px;
@@ -538,6 +549,10 @@ figcaption {
     .nav {
         width: 100%;
     }
+    .nav p {
+        width: 15%;
+        margin: 10px 10px;
+    }
     .shadow_div_third {
         width: 35%;
         margin-bottom: 20px;
@@ -548,8 +563,130 @@ figcaption {
     .slogan {
         left: 50px;
     }
+    .section_reverse article {
+        flex-direction: column-reverse;
+    }
+    .section_reverse article div {
+        margin: auto;
+        box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
+        border: 1px solid black;
+        width: 100%;
+        padding: 10px 30px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    .section_reverse h2 {
+        margin-top: 0px;
+    }
+    .section_reverse article img {
+        width: 80%;
+        height: 100%;
+    }
+    .second_section article {
+        flex-direction: column-reverse;
+    }
+    .second_section article div {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .second_section article img {
+        width: 80%;
+        height: 100%;
+    }
+    .section_shadow_div div{
+        width: 80%;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    .section_shadow_div div div {
+        margin: auto;
+        width: 95%;
+        margin-bottom: 60px;
+    }
+    .section_shadow_div div div p,.section_shadow_div div div h1 {
+        width: 100%;
+    }
+    .section_shadow_div div img {
+        margin: auto;
+        width: 95%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .prices table{
+        box-shadow: none;
+    }
+    td {
+        width: 200px;
+    }
+    .members_block {
+        height: 150px;
+    }
+    .members_block img {
+        height: fit-content;
+        align-self: center;
+    }
+    .members_block textarea {
+        height: 100px;
+        margin: auto;
+        width: 95%;
+    }
+    .send_message textarea {
+        height: 90px;
+
+    }
+    .shadow_div_second input[type ="text"] {
+        font-size:14px;
+    }
+    .partners div div{
+        width: 80%;
+    }
+    .partners div div img {
+        width: 55%;
+        align-self: center;
+    }
+    .team {
+        width: 85%;
+        margin: 0px auto;
+    }
+    .team div {
+        margin-bottom: 0;
+    }
+    .team div p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #contacts div {
+        width: 92%;
+        margin: 40px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    #contacts p {
+        text-align: center;
+        width: 40%;
+        margin: 20px 20px;
+    }
+    #contacts figure {
+        width: 100%;
+    }
+    #contacts img {
+        width: 100%;
+        height: 100%;
+    }
+    #contacts figcaption {
+        opacity: 0;
+    }
+    .height_form {
+        width: fit-content;
+    }
 }
 @media (max-width: 1099px){
+    .nav {
+        font-size: 35px;
+    }
     .img_h1_img {
         margin-right: 200px;
     }
@@ -559,6 +696,9 @@ figcaption {
 }
 
 @media (max-width: 1000px){
+    .nav {
+        font-size: 30px;
+    }
     .contacts div{
         width: 522px;
     }
