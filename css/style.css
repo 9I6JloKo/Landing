@@ -500,6 +500,7 @@ figcaption {
     }
     .wrapper {
         width: 75%;
+        margin: auto;
     }
 }
 @media (max-width: 1699px) and (min-width: 1600px){
@@ -508,6 +509,7 @@ figcaption {
     }
     .wrapper {
         width: 80%;
+        margin: auto
     }
     .slogan {
         left: 180px;
@@ -519,6 +521,7 @@ figcaption {
     }
     .wrapper {
         width: 82.5%;
+        margin: auto;
     }
     .slogan {
         left: 150px;
@@ -530,6 +533,7 @@ figcaption {
     }
     .wrapper {
         width: 85%;
+        margin: auto;
     }
     .slogan {
         left: 130px;
@@ -541,6 +545,7 @@ figcaption {
     }
     .wrapper {
         width: 87.5%;
+        margin: auto;
     }
     .slogan {
         left: 100px;
@@ -559,7 +564,8 @@ figcaption {
         margin-bottom: 20px;
     }
     .wrapper {
-        width: 90%;
+        width: 95%;
+        margin: auto;
     }
     .slogan {
         left: 50px;
