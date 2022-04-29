@@ -101,8 +101,9 @@ article {
 }
 form[id="registration"]{
     position: fixed;
-    left: 30%;
-    top: 20%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     transition-duration: 0.5s;
     transform-origin: 0 0;
     border: 1px solid black;
@@ -110,7 +111,7 @@ form[id="registration"]{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 39.3vw;
+    width: 750px;
     margin: auto auto;
     opacity: 100%;
     background-image: url(../images/istockphoto-487021019-612x612.png);
@@ -631,12 +632,11 @@ figcaption {
         margin: auto;
         width: 95%;
     }
+    .members_block input[type="text"] {
+        width: 25%;
+    }
     .send_message textarea {
         height: 90px;
-
-    }
-    .shadow_div_second input[type ="text"] {
-        font-size:14px;
     }
     .partners div div{
         width: 80%;
@@ -679,9 +679,6 @@ figcaption {
     #contacts figcaption {
         opacity: 0;
     }
-    .height_form {
-        width: fit-content;
-    }
 }
 @media (max-width: 1099px){
     .nav {
@@ -692,6 +689,9 @@ figcaption {
     }
     .slogan {
         left: 10px;
+    }
+    .members_block input[type="text"] {
+        width: 30%;
     }
 }
 
@@ -705,6 +705,9 @@ figcaption {
     .img_h1_img {
         margin-right: 150px;
     }
+    .members_block input[type="text"] {
+        width: 40%;
+    }
 }
 @media (max-width: 950px){
     .img_h1_img {
@@ -717,5 +720,64 @@ figcaption {
     }
     .shadow_div_third {
         width: 55%;
+    }
+}
+@media (max-width: 770px){
+    .slogan {
+        font-size: 23px;
+    }
+    form[id="registration"] {
+        width: 90%;   
+    }
+    form[id="registration"] p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .reg_info {
+        margin: auto auto;
+    }
+    .reg_info input[type="text"] {
+        width: 100%;
+    }
+    form[id="registration"] label{
+        margin: 0 0;
+        margin: auto auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 750px){
+    .nav p {
+        width: 25%;
+    }
+    .slogan {
+        opacity: 0;
+    }
+    .img_h1_img {
+        width: 100%;
+    }
+    .partners .shadow_div_third img{
+        width: 80%;
+    }
+    .team {
+        height: 100%;
+        width: 100%;
+    }
+    .team div {
+        flex-direction: column;
+    }
+    .team div p{
+        width: 90%;
+        margin: 10% 10%;
+    }
+    .contacts p {
+        text-align: center;
+        font-size: 22px;
+        width: fit-content;
+    }
+}
+@media (max-width: 510px) {
+    .nav p {
+        width: 45%;
     }
 }
