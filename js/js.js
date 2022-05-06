@@ -15,9 +15,11 @@ function message_form(){
     if(document.getElementById("height_form").hidden == true){
         document.getElementById("height_form").hidden = false;
         document.getElementById("beginning").style.overflow = "hidden";
+        document.getElementById("nav_arrow").style.display = "none";
     }else{
         document.getElementById("height_form").hidden = true;
         document.getElementById("beginning").style.overflow = "auto";
+        document.getElementById("nav_arrow").style.display = "block";
     }
     /* console.log(document.getElementById("beginning").style.overflow); */
 }

@@ -92,6 +92,7 @@ article {
     margin-bottom: 14vh;
 }
 .height_form {
+    transition-duration: 0.5s;
     position: fixed;
     background-color: rgba(128, 128, 128, 0.39);
     width: 100%;
@@ -723,6 +724,9 @@ figcaption {
     }
 }
 @media (max-width: 850px){
+    .slogan {
+        font-size: 1.50em;
+    }
     .img_h1_img {
         margin-right: 00px;
     }
@@ -732,7 +736,7 @@ figcaption {
 }
 @media (max-width: 770px){
     .slogan {
-        font-size: 1.4375em;
+        font-size: 1.40em;
     }
     form[id="registration"] {
         width: 90%;   
@@ -797,9 +801,7 @@ figcaption {
         font-size: 1.75em;
     }
     .img_h1_img  .first_ico {
-        opacity: 0;
-        top: -500px;
-        position: absolute;
+        display: none;
     }
     table th, table td{
         font-size: 1.4375em;
