@@ -154,7 +154,7 @@ label {
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
-    border-radius: 0.6%;
+    border-radius: 5px;
     padding: 8px 2px;
     margin-bottom: 35px;
     margin-top: 25px;
@@ -784,6 +784,11 @@ figcaption {
         width: fit-content;
     }
 }
+@media (max-width: 650px){
+    .members_block input[type="text"]::placeholder {
+        font-size: 17px;
+    }
+}
 @media (max-width: 560px) {
     .nav p {
         width: 45%;
@@ -793,6 +798,7 @@ figcaption {
     }
     .img_h1_img  .first_ico {
         opacity: 0;
+        top: -500px;
         position: absolute;
     }
     table th, table td{
