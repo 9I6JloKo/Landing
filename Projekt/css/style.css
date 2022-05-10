@@ -739,11 +739,10 @@ figcaption {
         font-size: 1.40em;
     }
     form[id="registration"] {
-        width: 90%;   
+        width: 95%;
     }
     form[id="registration"] p {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin: 4% 10%
     }
     .reg_info {
         margin: auto auto;
@@ -791,6 +790,12 @@ figcaption {
 @media (max-width: 650px){
     .members_block input[type="text"]::placeholder {
         font-size: 17px;
+    }
+    form[id="registration"] label{
+        margin: -3% auto;
+    }
+    form[id="registration"] p {
+        margin: 0 10% 4% 10%;
     }
 }
 @media (max-width: 560px) {
