@@ -4,9 +4,8 @@ html {
 body {
     width: 100%;
     margin: 0;
-    background-image: url(../images/background.png);
+    background-image: url(../images/19760.png);
     background-size: 100%;
-    
 }
 .wrapper {
     transition-duration: 0.5s;
@@ -22,7 +21,7 @@ header {
     transition-duration: 0.2s;
     transform-origin: 0 0;
     width: 100%;
-    background-color: white;
+    background: linear-gradient(90deg, rgba(164,244,255,1) 0%, rgba(223,250,255,1) 10%, rgba(223,250,255,1) 90%, rgba(164,244,255,1) 100%);
     position: sticky;
     top: 0;
 }
@@ -61,35 +60,44 @@ header h1 {
 }
 nav {
     width: 100%;
-    background-color: black;
-    color: white;
+    background: linear-gradient(90deg, rgba(164,244,255,1) 0%, rgba(223,250,255,1) 5%, rgba(223,250,255,1) 95%, rgba(164,244,255,1) 100%);
+    border-top: 2px solid lightblue;
+    border-bottom: 2px solid lightblue;
     font-size: 2.375em;
     margin-bottom: 6.7vh;
 }
 .nav {
-    width: 60%;
     margin: auto auto;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .nav p {
-    width: 10.5vw;
+    padding: 0;
+    width: fit-content;
     text-align: center;
-    margin: 0.8255vh 0;
+    margin: 0.8255vh 2.5vw;
 }
 .nav a {
-    transition-duration: 0.5s;
+    color: black;
+}
+.nav a {
+    transition-duration: 0.2s;
 }
 .nav a:hover {
-    color: black;
-    text-shadow: 0.21vw 0.412vh 1px white;
+    color: grey;
+    text-shadow: 0 0 2px black;
 }
 article {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 14vh;
+}
+.section_reverse {
+    height: 65vh;
+    display: flex;
+    align-items: center;
 }
 .height_form {
     transition-duration: 0.5s;
@@ -142,7 +150,7 @@ label {
     justify-content: flex-end;
 }
 .reg_info input[type="text"] {
-    font-size: 1.6875em;
+    font-size: 0.8em;
     width: 60%;
     border-radius: 0.5vh;
     border: 1px solid black;
@@ -163,8 +171,7 @@ label {
     transition-duration: 0.3s;
 }
 .reg_info input[type="submit"]:hover {
-    color: white;
-    background-color:  grey;
+    background-color:  #9ef0fb;
 }
 article img {
     width: 45%;
@@ -202,7 +209,10 @@ article div a {
     margin: auto auto;
     width: fit-content;
     padding: 1.03vh 2.1vw;
-    background-color: black;
+    background-color: #9ef0fb;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    color: black;
     font-size: 1.625em;
 }
 article a:hover {
@@ -210,6 +220,11 @@ article a:hover {
     outline: 3px solid black;
     outline-offset: -4px;
     background-color: white;
+}
+.second_section {
+    height: 90vh;
+    padding-top: 2vh;
+    display: flex;
 }
 .second_section h2 {
     font-size: 2.4375em;
@@ -234,6 +249,10 @@ article a:hover {
     font-size: 1.625em;
     margin: 0 0.8vw 5.16vh 0.785vw;
 }
+.section_shadow_div {
+    height: 90vh;
+    display: flex;
+}
 .shadow_div {
     margin: auto 4.714vw auto 3.14vw;
     display: flex;
@@ -247,7 +266,7 @@ article a:hover {
     margin-left: 1.57vw;
     width: 33%;
     height: 281px;
-    box-shadow: none
+    box-shadow: none;
 }
 .shadow_div h2 {
     margin-bottom: 0;
@@ -256,15 +275,19 @@ article a:hover {
     width: 55%;
 }
 .shadow_div div p {
-    margin: 0 30px 20px 0;
     margin-top: 1.548vh;
-    width: 90%;
+    width: 100%;
     text-align: justify;
 }
 .prices{
     width: 100%;
     text-align: center;
     margin-bottom: 70px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
 }
 .prices h2 {
     font-size: 2.4375em;
@@ -276,7 +299,7 @@ article a:hover {
     font-size: 1.875em;
 }
 table{
-    margin:  auto auto;
+    margin:  1.5vh auto;
     border-collapse: collapse;
     text-align: center;
     border: 0.5px solid black;
@@ -312,6 +335,16 @@ td {
 }
 .prices a {
     color: brown;
+    transition-duration: 0.2s;
+}
+.prices a:hover {
+    color: white;
+    text-shadow: 0 0 3px brown;
+}
+section[id="messages"] {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
 }
 .shadow_div_second {
     width: 90%;
@@ -361,16 +394,15 @@ td {
     padding: 5px;
     resize: none;
     color: black;
-    font-size: 1.225em;
+    font-size: 1.425em;
     border-radius: 0px;
     border: 1px solid black;
     width: 150%;
     margin-right: 10px;
 }
 .members_block form input[type="submit"] {
-    transition-duration: 0.5s;
-    background-color: black;
-    color: white;
+    transition-duration: 0.2s;
+    color: black;
     font-size: 1em;
     cursor: pointer;
 }
@@ -397,7 +429,7 @@ td {
     padding: 5px;
     resize: none;
     color: black;
-    font-size: 1.225em;
+    font-size: 1.425em;
     border-radius: 0px;
     border: 1px solid black;
     background-color: white;
@@ -407,6 +439,10 @@ td {
 .partners {
     text-align: justify;
     margin-top: 60px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .partners div {
     flex-wrap: wrap;
@@ -431,9 +467,13 @@ td {
     margin-top: 80px;
     width: 100%;
     margin-bottom: 80px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .team h2 {
-    margin-bottom: -20px;
+    margin-bottom: 0;
 }
 .team div{
     margin: 40px auto;
@@ -455,16 +495,22 @@ td {
     font-size: 1.375em;
     width: 100%;
 }
+#contacts {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .contacts {
-    margin-top: 80px;
+    margin-top: 20px;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: auto auto;
 }
 #contacts h2 {
     margin-top: 50px;
-    margin-bottom: -60px;
 }
 .contacts div {
     width: 30%;
@@ -474,6 +520,7 @@ td {
     box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
 }
 .contacts p {
+    text-align: center;
     font-size: 1.875em;
     margin: 40px 60px;
 }
@@ -492,23 +539,19 @@ figcaption {
     bottom: 10px;
     right: 10px;
 }
-@media (max-width: 1900px) and (min-width: 1800px){
-    .nav {
-        width: 65%;
-    }
-}
-@media (max-width: 1799px) and (min-width: 1700px){
+@media (max-width: 1900px){
     .nav {
         width: 70%;
     }
+}
+@media (max-width: 1799px) and (min-width: 1700px){
     .wrapper {
         width: 75%;
-        margin: auto;
     }
 }
-@media (max-width: 1699px) and (min-width: 1600px){
+@media (max-width: 1699px){
     .nav {
-        width: 80%;
+        width: 77%;
     }
     .wrapper {
         width: 80%;
@@ -518,7 +561,7 @@ figcaption {
         left: 180px;
     }
 }
-@media (max-width: 1599px) and (min-width: 1500px){
+@media (max-width: 1599px){
     .nav {
         width: 85%;
     }
@@ -529,8 +572,12 @@ figcaption {
     .slogan {
         left: 150px;
     }
+    .nav p{
+        margin-left: 3.2vw;
+        margin-right: 3.2vw;
+    }
 }    
-@media (max-width: 1499px) and (min-width: 1400px){
+@media (max-width: 1499px){
     .nav {
         width: 90%;
     }
@@ -542,7 +589,7 @@ figcaption {
         left: 130px;
     }
 }
-@media (max-width:1399px)and (min-width: 1300px){
+@media (max-width:1399px){
     .nav {
         width: 95%;
     }
@@ -556,11 +603,7 @@ figcaption {
 }
 @media (max-width: 1299px){
     .nav {
-        width: 100%;
-    }
-    .nav p {
-        width: 15%;
-        margin: 10px 10px;
+        width: 97%;
     }
     .shadow_div_third {
         width: 35%;
@@ -572,6 +615,9 @@ figcaption {
     }
     .slogan {
         left: 50px;
+    }
+    .section_reverse {
+        height: fit-content;
     }
     .section_reverse article {
         flex-direction: column-reverse;
@@ -592,6 +638,9 @@ figcaption {
         width: 80%;
         height: 100%;
     }
+    .second_section {
+        height: fit-content;
+    }
     .second_section article {
         flex-direction: column-reverse;
     }
@@ -603,6 +652,9 @@ figcaption {
     .second_section article img {
         width: 80%;
         height: 100%;
+    }
+    .section_shadow_div {
+        height: fit-content;
     }
     .section_shadow_div div{
         width: 80%;
@@ -623,11 +675,20 @@ figcaption {
         height: 100%;
         margin-bottom: 20px;
     }
+    .prices {
+        height: fit-content;
+    }
     .prices table{
         box-shadow: none;
     }
     td {
         width: 200px;
+    }
+    .team {
+        height: fit-content;
+    }
+    #messages {
+        height: fit-content;
     }
     .members_block {
         height: 150px;
@@ -637,7 +698,6 @@ figcaption {
         align-self: center;
     }
     .members_block textarea {
-        height: 100px;
         margin: auto;
         width: 95%;
     }
@@ -647,12 +707,18 @@ figcaption {
     .send_message textarea {
         height: 90px;
     }
+    .partners {
+        height: fit-content;
+    }
     .partners div div{
         width: 80%;
     }
     .partners div div img {
         width: 55%;
         align-self: center;
+    }
+    .team {
+        height: fit-content;
     }
     .team {
         width: 85%;
@@ -664,6 +730,13 @@ figcaption {
     .team div p {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+    #contacts {
+        height: fit-content;
+    }
+    #contacts h2{
+        margin-top: 80px;
+        margin-bottom: -50px;
     }
     #contacts div {
         width: 92%;
@@ -758,9 +831,6 @@ figcaption {
     }
 }
 @media (max-width: 750px){
-    .nav p {
-        width: 25%;
-    }
     .slogan {
         opacity: 0;
     }
@@ -797,11 +867,11 @@ figcaption {
     form[id="registration"] p {
         margin: 0 10% 4% 10%;
     }
+    .shadow_div {
+        height: fit-content;
+    }
 }
 @media (max-width: 560px) {
-    .nav p {
-        width: 45%;
-    }
     .section_reverse p, .second_section p, .section_shadow_div p{
         font-size: 1.75em;
     }
