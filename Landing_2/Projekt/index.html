@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Robinzone Crusoe</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+    </head>
+    <body id="beginning">
+        <header id="header">
+            <p class="slogan">Вы от нас просто<br>не сможете уйти!</p>
+            <div class="img_h1_img">
+                <div>
+                    <img src="images/ico2.png" class="first_ico">
+                </div>
+                <h1>Robinzone<br>Crusoe</h1>
+                <div>
+                    <img src="images/ico2.png">
+                </div>
+            </div>
+            <nav>
+                <div class="nav">
+                    <p><a href="#description">Описание</a></p>
+                    <p><a href="#advantages">Преимущества</a></p>
+                    <p><a href="#prices">Прайс&#8209;лист</a></p>
+                    <p><a href="#messages">Отзывы</a></p>
+                    <p><a href="#partners">Партнеры</a></p>
+                    <p><a href="#aboutUs">Команда</a></p>
+                    <p><a href="#contacts">Контакты</a></p>
+                </div>
+            </nav>
+        </header>
+        <div class="wrapper">
+            <main>
+                <section class="section_reverse">
+                    <article>
+                            <img src="images/luchshie-10-ostrovov7.jpg">
+                            <div>
+                                <h2>Ешь и выживай</h2>
+                                <p>Конкурс, который проверяет крепкость Вашего желудка. Не всем это окажется по силам, но и приз будет достойным!</p>
+                                <a onclick="message_form()">Записаться<br>на конкурс</a>
+                            </div>
+                    </article>
+                </section>
+                <div id = "height_form" hidden class="height_form">
+                    <form id="registration" method="POST">
+                        <img onclick="message_form()" src="images/17047.png">
+                        <p>Конкурс проходит в городе Таллинн на ратушной площади.<br>Ждём всех желающих!<br>После регистрации к Вам на почту прийдёт код, по которому<br>Вы сможете участвовать в конкурсе.</p>
+                        <div class="reg_info">
+                            <label>Имя:</label><input type="text">
+                            <label>Фамилия:</label><input type="text">
+                            <label>Телефон:</label><input type="text">
+                            <label>Почта:</label><input type="text">
+                            <input type="submit" value="Зарегистрироваться">
+                        </div>
+                    </form>
+                </div>
+                <section id="description"class="second_section">
+                    <article>
+                        <img src="images/meet.jpg">
+                        <div>
+                            <h2>Описание</h2>
+                            <p class="bigger_P">Акция проходит для того, чтобы показать величие нашего мира и безграничность фантазии у человека, когда дело идёт о готовке. Если 3 кг бифштекса разных сортов мяса окажутся Вам по силам, то мы Вас отправим в незабываемое путешествие из перечня списка.</p>
+                            <p class="smaller_P">(со всеми пунктами конкурса можно ознакомиться, нажав на форму сверху)</p>
+                        </div>
+                    </article>
+                </section>
+                <section id = "advantages" class="section_shadow_div">
+                    <article>
+                        <div class="shadow_div">
+                            <img src="images/istockphoto-1267129889-612x612.jpg">
+                            <div>
+                                <h2>Преимущества</h2>
+                                <p>При покупке путёвки мы предлагаем фотоловушку(замаскированную камеру с тепловизором), которая устанавливается у Вас дома. Она легко включается-выключается кнопкой на задней части корпуса. Благодаря ей Вы можете не беспокоиться о безопасности жилья.</p>
+                            </div>
+                    </article>
+                </section>
+                <section id="prices" class="prices">
+                    <h2>Прайс-лист на путевки</h2>
+                    <p>Цены складываются из Ваших пожеланий</p>
+                    <table>
+                        <tr class="top_table_first_row"><th>Страны</th><th>Отели</th><th class="right_table">Количество людей</th></tr>
+                        <tr><td>Канада:643€</td><td>5 звезд:547€</td><td class="right_table">5 человек:  скидка<br>17%</td></tr>
+                        <tr><td>Италия:80€</td><td>4 звезды:284€</td><td class="right_table">4 человека: скидка<br>12%</td></tr>
+                        <tr><td>Греция:226€</td><td>3 звезды:547€</td><td class="right_table">3 человека: скидка<br>8%</td></tr>
+                        <tr><td>Швейцария:91€</td><td>2 звезды:547€</td><td class="right_table">2 человека: скидка<br>5%</td></tr>
+                        <tr class="bottom_table"><td>Германия:117€</td><td>1 звезда:547€</td><td class="right_table">1 человек:  скидка<br>0%</td></tr>
+                    </table>
+                    <p class="p_below_table">Более подробно Вы можете узнать на нашем сайте.</p>
+                    <p><a target=»_blank» href="images/prices.png" download>Подробнее...</a></p>
+                </section>
+                <section id="messages">
+                    <div class="shadow_div_second">
+                        <h2>Отзывы</h2>
+                        <div class="members_block">
+                            <img src="images/ффффф.png">
+                            <form method="POST">
+                                <input type="text" placeholder="Пользователь">
+                                <div class="send_message">
+                                    <textarea rows="4" cols="50" placeholder="(Введите сообщение)"></textarea>
+                                    <input type="submit" value="Отправить">
+                                </div>
+                            </form>
+                        </div>  
+                        <div class="members_block">
+                            <img src="images/retyukij.png">
+                            <div class="read_message">
+                                <p>Ксения Ивлеева</p>
+                                <textarea disabled rows="3" cols="50">Мне понравился тур по Канаде. Особенно понравилась Оттава. Гид довольно интересно рассказывал историю этого города. Я определённо ещё раз использую ваше тур-агенство.</textarea>
+                            </div>
+                        </div>
+                        <div class="members_block">
+                            <img src="images/ффффф.png">
+                            <div class="read_message">
+                                <p>Дмитрий Винитров</p>
+                                <textarea disabled rows="4" cols="50">Огромное спасибо вашей тур-фирме. Вы смогли сделать мою командировку спокойной и приятной. Надеюсь, моя компания и дальше будет сотрудничать с вами, чтобы и я, и мои напарники могли нормально работать за границей.</textarea>
+                            </div>
+                        </div>
+                        <div class="members_block">
+                            <img src="images/ффффф.png">
+                            <div class="read_message">
+                                <p>Влад Смирнов</p>
+                                <textarea disabled rows="4" cols="50">Мне и моей семье очень понравилось путешествовать, используя ваше тур-агенство, правда еда в отеле была, так сказать, не очень. Пресность зашкаливает. Мы будем ещё у вас покупать путёвки, но еду лучше покупать самим.</textarea>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="partners" class="partners">
+                    <h2>Партнеры</h2>
+                    <div>
+                        <div class="shadow_div_third">
+                            <img src="images/шыфгышфугыщшфшгщ.PNG">
+                            <p>Благодаря сотрудничеству с этой страховой компанией, вы сможете без трудностей сделать страховку за границей. Мы ценим своих клиентов и не хотим чтоб у них были какие-либо проблемы.</p>
+                        </div>
+                        <div class="shadow_div_third">
+                            <img src="images/квырсрсво.PNG">
+                            <p>Это один из отелей, с которым мы сотрудничаем. Вас ждёт прекрасный сервис, а также не уступающие ему красоты Сиднея. Вам незачем отель, если вы собираетесь туда, где есть наши партнёры.</p>
+                        </div>
+                        <div class="shadow_div_third">
+                            <img src="images/ваывыаваывап.PNG">
+                            <p>Если Вы собираетесь бороздить просторы Италии, то мы Вам предлагаем компанию по аренде лимузинов. Вы сможете насладиться красотой Италии и не только.</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="aboutUs" class="team">
+                    <h2>Команда</h2>
+                    <div>
+                        <img src="images/кнаногплпл.png">
+                        <p>“Вас приветсвует Антон, директор компании. Мы рады тому что у нас есть возможность подарить счастье тем кто хочет путешествоать, смотреть на природу или животных, или же вкусно поесть. К каждому из Вас моя компания будет относиться уважительно, но при условии что и Вы сможете проявить уважение к работникам. Наша команда мала, но способна Вас удивить”.</p>
+                    </div>
+                    <div>
+                        <img src="images/ыуаврсапо.png">
+                        <p>“Здравствуйте, посетители этого сайта. Меня зовут Иван, и я отвечаю за связи между нашей компанией и нашими партнёрами. Я стараюсь делать свою работу качественно, чтобы и наши партёры были и Вы были не на последнем ряду. Все контракты, которые представлены нашей компанией вышли из под моего пера. Надеюсь, Вам нравится наша компания и Вы продолжите ею пользоваться”.</p>
+                    </div>
+                    <div>
+                        <img src="images/цпаычрвео.png">
+                        <p>“Меня зовут Алексей. Моя задача искать компании, специализирующиеся на истории и рассказах. Мне нравится история, и я бы хотел чтоб и наши посетители смогли бы больше узнать интересного. Благодаря этому я всегда строго оцениваю гидов, которые Вас сопровождают. Буду надеяться, что никто из моих подопечных не разочаровал Вас”.</p>
+                    </div>
+                </section>
+                <section id="contacts">
+                    <h2>Контакты</h2>
+                    <div class="contacts">
+                        <div>
+                            <p>Директор<br>+37259024698</p>
+                            <p>Зам. директор<br>+37256892366</p>
+                            <p>Секретарь<br>+37258362556</p>
+                        </div>
+                        <figure>
+                            <img src="images/FOREIGN201908271558000582566149004.jpg">
+                            <figcaption>Здание главного офиса компании</figcaption>
+                        </figure>
+                    </div>
+                </section>
+            </main>
+            <a id="nav_arrow" href="#beginning"><img class="navigation" src="images/home2.png"><img class="navigation" src="images/home.png" onmouseover="nav_change_img_to(this)" onmouseout="nav_change_img_from(this)"></a>
+        </div>
+        <script src='js/js.js'></script>
+    </body>
+</html>
