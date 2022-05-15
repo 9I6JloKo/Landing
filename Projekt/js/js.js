@@ -23,3 +23,9 @@ function message_form(){
     }
     /* console.log(document.getElementById("beginning").style.overflow); */
 }
+function nav_change_img_to(elem) {
+    elem.style.opacity = 0;
+}
+function nav_change_img_from(elem) {
+    elem.style.opacity = 1;
+}
