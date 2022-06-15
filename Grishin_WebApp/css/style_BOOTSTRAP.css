@@ -1,0 +1,123 @@
+body {
+	background: linear-gradient(45deg, ivory, lightyellow);
+	font-family: "Georgia";
+}
+.wrapper {
+	width: 1380px;
+	margin-left: 254px;
+	text-align: justify;
+	overflow: hidden;
+	float: left;
+	border-radius: 20px;
+	overflow: visible;
+	float: left;
+}
+main {
+	width: 1200px;
+	float: left;
+}
+header {
+	padding-top: 15px;
+	text-align: center;
+	font-size: 20px;
+}
+h1 {
+	padding-right: 180px;
+	color: violet;
+	text-shadow: 1px 1px 1px black,
+	0px 1px 1px black,-1px 1px 1px black,
+	-1px 0px 1px black,-1px -1px 1px black,
+	0px -1px 1px black,1px -1px 1px black, 1px 0px 1px black;
+	transition-duration: 0.1s;
+}
+h1:hover {
+	text-shadow: 2px 2px 2px black,
+	0px 2px 2px black,-2px 2px 2px black,
+	-2px 0px 2px black,-2px -2px 2px black,
+	0px -2px 2px black,2px -2px 2px black, 2px 0px 2px black;
+	letter-spacing: 60px;
+	padding-right: 120px;
+}
+.firstsec {
+	margin: 10px 20px;
+}
+.firstsec article h2 {
+	height: 50px;
+}
+.firstsec article {
+	float: left;
+	width: 460px;
+	height: 440px;
+	margin: 10px 20px;
+	padding: 10px 40px;	background-color: rgb(200,182,230); /*светло-фиолетовый*/
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px grey;
+}
+p {
+	line-height: 24px;
+	font-size: 18px;
+}
+.secondsec {
+	background-color: pink;
+	position: relative;
+	padding: 10px 40px;
+	border-radius: 20px;
+	top: 20px;
+	margin: 0px auto;
+	width: 1040px;
+	overflow: hidden;
+	box-shadow: 1px 1px 1px grey;
+}
+.imgcenter {
+	width: 800px;
+	margin: 10px auto;
+}
+img {
+	border-radius: 10px;
+	width: 800px;
+}
+aside {
+	padding-top: 20px;
+	margin-top: 20px;
+	border-collapse: collapse;
+	width: 160px;
+	float: right;
+	position: sticky;
+	top: 10px;
+	border-left-color: lightyellow;
+	border-right-color: lightyellow;
+	border-top-color: lightblue;
+	border-bottom-color: lightgreen;
+	border-style: double;
+	border-top-style: dashed;
+	border-radius: 50px 0px;
+	border-width: 6px;
+}
+a {
+	text-decoration: unset;
+}
+a p {
+	text-align: center;
+	color: brown;
+}
+hr {
+	margin-bottom: 300px;
+}
+.imgsmaller {
+	position: fixed;
+	right: 10px;
+	bottom: 85px;
+	width: 80px;
+	opacity: 0.7;
+}
+.imgsmaller2 {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 80px;
+	opacity: 0.7;
+	transform: rotate(180deg);
+}
+html {
+	scroll-behavior: smooth;
+}

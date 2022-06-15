@@ -1,0 +1,43 @@
+body {
+	background: linear-gradient(90deg, #faf0cd, #fab397); /*1-бежевый, 2-красно-бежевый*/
+}
+h1 {
+	font-family: "Arial";
+	font-size: 60px;
+	color:  rgb(35,99,150);
+  	margin: 30px 0 25px 0px;
+  	background-color: #A6D8CB; /* тон бирюзового? */
+  	border-radius: 30px;
+}
+p {
+	font-family: "Arial";
+	font-size: 25px;
+	color:  rgb(35,99,150); /*темно-синий*/
+}
+th p {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+th, td {
+	text-shadow: 1px 1px 1px black;
+	padding: 5px 15px;
+	border-style: solid;
+	border-width: 2px 0px 2px 0px;
+	border-color: white;
+	border-radius: 30px;
+}
+.smallerfont {
+	font-size: 24px;
+	text-transform: none;
+	text-align: justify;
+	padding: 0 45px;
+}
+ .smallerfontCenter {
+	text-align: center;
+}
+img {
+	width: 300px;
+}
+.gerbsize {
+	width: 225px;
+}

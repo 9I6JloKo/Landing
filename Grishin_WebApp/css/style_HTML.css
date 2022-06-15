@@ -1,0 +1,113 @@
+body {
+	font-family: "Arial";
+	background-color: orange;
+}
+.wrapper {
+	width: 1380px;
+	margin-left: 254px;
+	background-color: white;
+	overflow: visible;
+	float: left;
+	border-radius: 20px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+header {
+	border-radius: 10px;
+	background: linear-gradient(45deg, lightpink, lightblue);
+	position: sticky;
+	top: 0px;
+	width: 1380px;
+	height: 110px;
+	float: left;
+	border-radius: 0px 0px 20px 20px;
+}
+h1 a {
+	text-decoration: unset;
+	color: black;
+}
+h1 {
+	background-color: white;
+	border-radius: 10px;
+	width: 120px;
+	padding-left: 10px;
+	font-size: 40px;
+	margin: 0px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 50px;
+}
+header nav a {
+	text-decoration: none;
+	color: black;
+	background-color: ivory;
+	text-align: center;
+	border: 3px solid black;
+	border-radius: 20px;
+	width: 140px;
+	padding: 10px;
+	margin: 0px 30px;
+	transition-duration: 0.3s;
+}
+header nav a:hover {
+	background: rgb(232,95,150);
+}
+main {
+	margin-top: 10px;
+	float: left;
+	margin: 0px 200px;
+	width: 980px;
+}
+h2 {
+	margin-left: 30px;
+}
+h3 {
+	margin-left: 30px;
+}
+p {
+	line-height: 25px;
+	font-size: 18px;
+	text-align: justify;
+	margin: 0px 30px;
+}
+ul {
+	margin: 20px 30px;
+}
+li p {
+	margin-left: 0px;
+}
+hr {
+	margin-bottom: 200px;
+}
+.imgcenter {
+	margin: 20px;
+	text-align: center;
+}
+.imgsmaller {
+	/* навигация */
+	position: fixed;
+	bottom: 85px;
+	right: 10px;
+	width: 80px;
+	opacity: 0.7;
+	box-shadow: unset;
+}
+.imgsmaller2 {
+	/* навигация */
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 80px;
+	opacity: 0.7;
+	transform: rotate(180deg);
+	box-shadow: unset;
+}
+html {
+	scroll-behavior: smooth;
+}

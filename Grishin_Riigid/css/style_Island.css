@@ -1,0 +1,137 @@
+body {
+	background-image: url("../Images/islandFon2.png");
+}
+.buttons {
+	margin: 0px 450px;
+	padding: 0px 20px;
+	background-image: url(../Images/darkWood.jpg);
+	text-align: center;
+	text-decoration: unset;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: lightgreen;
+	border-width: 2px;
+	word-spacing: 10px;
+}
+.buttons2 {
+	text-decoration: unset;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 15px 25px;
+	padding: 15px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+	transition: 0.2s;
+
+}
+p a {
+	border: 1px solid blue;
+	border-radius: 10px;
+	background-color: lightblue
+
+}
+p a:hover {
+	background-color: white;
+}
+.islandflag {
+	width: 52px;
+	height: 32px;
+}
+h1 {
+	font-family: "Arial";
+	font-size: 60px;
+	color:  rgb(35,99,150); /* тон синего */
+  	margin: 30px 60px;
+  	padding: 10px;
+  	background-color: #A6D8CB; /* тон бирюзового? */
+  	text-align: center;
+  	border-radius: 30px;
+	box-shadow: 1px 3px 25px green;
+}
+h2 {
+	font-family: "Arial";
+	font-size: 40px;
+	color:  rgb(35,99,150); /* тон синего */
+  	margin: 30px 80px;
+  	padding: 10px;
+  	background-color: #A6D8FB; /* голубой */
+  	text-align: center;
+  	border-radius: 30px;
+	box-shadow: 1px 3px 1px grey;
+}
+h3 {
+	font-family: "Arial";
+	font-size: 30px;
+	color:  rgb(35,99,150); /* тон синего */
+  	margin: 30px 115px;
+  	padding: 8px;
+  	background-color: #ecd4fc; /* серо-буро-малиновый? */
+  	text-align: center;
+  	border-radius: 30px;
+  	box-shadow: 1px 3px 1px grey;
+}
+h4 {
+	font-family: "Arial";
+	font-size: 25px;
+	color:  rgb(35,99,150); /* тон синего */
+	text-align: center;
+	margin-left: unset;
+	background-color: lightblue;
+	margin: 5px 505px 5px 505px;
+	border-radius: 30px;
+	box-shadow: 0px 3px 1px grey;
+}
+p {
+	background-color: white;
+	border-radius: 30px;
+	border-color: pink;
+	border-style: dashed;
+  	margin: 10px 400px;
+  	padding: 10px 30px;
+	font-family: "Arial";
+	text-align: justify;
+	font-size: 22px;
+	color:  rgb(35,99,150); /* тон синего */
+	box-shadow: 0px 1px 1px grey; 
+}
+ol {
+	list-style-type: unset;
+	list-style-position:inside;
+    padding-left: 0;
+}
+ul{
+	list-style-position:inside;
+    padding-left: 0;
+}
+img {
+	width: 700px;
+  	border-radius: 20%;
+}
+.picCenter {
+	text-align: center;
+	margin: 10px 510px 20px 510px;
+	padding: 30px 0px;
+	box-shadow: 1px 1px 1px grey;
+}
+.imgsmaller {
+	/* навигация */
+	position: fixed;
+	bottom: 100px;
+	right: 10px;
+	width: 100px;
+	opacity: 0.7;
+}
+.imgsmaller2 {
+	/* навигация */
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 100px;
+	opacity: 0.7;
+	transform: rotate(180deg);
+}
+html {
+	scroll-behavior: smooth;
+}

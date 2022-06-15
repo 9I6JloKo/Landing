@@ -1,0 +1,80 @@
+.wrapper {
+	border-radius: 10px;
+	border: 1px solid red;
+	margin: 0 200px;
+	background-color: rgb(255,235,255);
+}
+header {
+	height: 90px;
+	margin-bottom: 20px;
+	border: 3px solid green;
+	border-radius: 10px;
+	background-color: lightblue;
+}
+h1 {
+	text-align: center;
+	padding: 5px 0px;
+}
+main {
+	background-color: lightgreen;
+	border-radius: 10px;
+	border: 3px solid green;
+	margin: 0px 25px;
+	float: left;
+	margin-bottom: 20px;
+	height: 1280px;
+}
+section{
+	background-color: grey;
+	overflow: hidden;
+	margin: 5px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+figure {
+	text-align: center;
+}
+ul {
+	background-color: ivory;
+	border-radius: 10px;
+	margin: 10px 20px;
+	text-align: center;
+}
+img {
+	border: 3px solid green;
+	border-radius: 10px;
+}
+article {
+	background-color: lightyellow;
+	border-radius: 10px;
+	padding: 0px 20px;
+	margin: 0px 10px;
+	text-align: justify; 
+	border: 3px solid green;
+	float: left;
+	width: 350px;
+}
+.asideleft {
+	background-color: lightpink;
+	float: left;
+	width: 250px;
+	border: 3px solid green;
+	border-radius: 10px;
+	height: 1280px;
+}
+footer {
+	background-color: lightblue;
+	height: 100px;
+	margin-top: 20px;
+	border: 3px solid green;
+	border-radius: 10px;
+	clear: both;
+}
+.asideright {
+	background-color: lightpink;
+	float: right;
+	width: 325px;
+	border: 3px solid green;
+	border-radius: 10px;
+	height: 1280px;
+}	

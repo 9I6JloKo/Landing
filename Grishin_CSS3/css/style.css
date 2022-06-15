@@ -1,0 +1,244 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-size: 1920px 1080px;
+	background-attachment: fixed;
+}
+header {
+	width: 1380px;
+	height: 700px;
+	background: linear-gradient(90deg, green,white,lightblue,white,red);
+	margin: auto auto;
+	text-align: center;
+	border: 20px solid red;
+	border-radius: 20px;
+	border-top-color: lightgreen;
+	border-left-color: lightgreen;
+	border-right-color: #ff726f; /*lightred*/
+	border-bottom-color: #ff726f;
+	box-shadow: 5px 4px 0px red, -1px -1px 0px green;
+}
+h1 {
+	font-family: 'Comforter', cursive;
+	left: 50px;
+	font-size: 100px;
+	color: blue;
+	letter-spacing: 110px;
+	text-shadow:-2px -2px 0px orange,2px 2px 0px green, 4px 4px 0px white, 6px 6px 0px red;
+	position: relative;
+	transform: rotate(-10deg);
+	top: 10px;
+}
+figure {
+	align-items: center;
+	word-spacing: 100px;
+}
+header figure img {
+	margin-top: 50px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	box-shadow: 0px 0px 0px 6px red, 0px 0px 0px 12px yellow, 0px 0px 0px 18px red, 0px 0px 0px 24px green;
+}
+header p {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 65px;
+	color: blue;
+	font-weight: 900;
+	letter-spacing: 20px;
+	font-size: 35px;
+	text-shadow: -4px -4px 0px lightblue, 3px 3px 0px white, 6px 6px 0px yellow;
+}
+hr {
+	height: 4px;
+	margin: 30px 350px;
+	margin-bottom: 70px;
+	background-color: white;
+	opacity: 30%;
+}
+.maintext {
+	width: 1280px;
+	margin: auto auto;
+	background-color: white;
+	box-shadow: 0px 0px 0px 12px #ff726f, 0px 0px 0px 50px rgba(255,255,255, .4);
+	margin-bottom: 100px;
+}
+.maintext p {
+	text-align: justify;
+	padding: 40px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-size: 23px;
+}
+div section {
+	background: linear-gradient(90deg, green,white,lightblue,white,red);
+	text-align: justify;
+	border: 10px solid red;
+	border-radius: 20px;
+	border-top-color: #ff726f;
+	border-left-color: #ff726f;
+	border-right-color: lightgreen; 
+	border-bottom-color: lightgreen;
+	box-shadow: -1px -1px 0px red, 5px 4px 0px green;
+	width: auto;
+}
+section h2 {
+	background-color: lightgreen;
+	color: white;
+	text-shadow: 1px 0 1px #000, 
+				0 1px 1px #000, 
+				-1px 0 1px #000, 
+				0 -1px 1px #000;
+	margin: 30px 100px;
+	padding: 15px 30px;
+	font-size: 34px;
+	border-width: 6px;
+  	border-style: solid;
+	border-image: linear-gradient(45deg, orange, lightgreen) 1;
+}
+ul {
+	background-color: white;
+	padding: 5px 80px;
+	font-weight: 900;
+	font-family: "Verdana";
+	line-height: 30px;
+	font-size: 18px;
+	margin: 20px 20px;
+	box-shadow: -4px 4px 2px orange,
+				-4px 0px 2px orange,
+				 4px 6px 2px darkblue,
+				 10px 10px 0px yellow;
+}
+li::marker {
+	content: url(../images/icon_guitar.png);
+}
+.classificmargin {
+	width: 1280px;
+	margin: auto auto;
+	margin-top: -30px;
+}
+div section {
+	width: 1380px;
+	margin: 20px auto;
+}
+main div section p {
+	width: 1220px;
+	background-color: white;
+	margin: 10px 30px;
+	border-radius: 10px;
+	padding: 20px 50px;
+	line-height: 30px;
+	color: darkblue;
+	font-family: 'Comfortaa', cursive;
+	font-size: 22px;
+}
+main img {
+	width: 300px;
+}
+.floatleftpic {
+	float: left;
+	margin-right: 7px;
+	border: 5px solid lightgreen;
+	border-radius: 10px 30px 30px 30px/40px 30px 30px 30px;
+	border-top-color: lightgreen;
+	border-bottom-color: lightgreen;
+	border-left-color: red;
+	border-right-color: red;
+}
+.floatrightpic {
+	float: right;
+	margin-left: 7px;
+	border: 5px solid yellow;
+	border-radius: 0px 100% 100% 100%/0 100% 100% 100%;
+	border-top-color: orange;
+	border-bottom-color: yellow;
+	border-left-color: yellow;
+	border-right-color: orange;
+}
+.navigation {
+	border-radius: 100%;
+	width: 50px;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	opacity: 80%;
+	border: 5px solid green;
+	box-shadow: 0px 0px 10px 2px green;
+}
+footer p {
+	width: 300px;
+	background-color: lightgreen;
+	margin: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	float: left;
+	font-weight: 900;
+	margin-top: 30px;
+	padding: 10px 5px;
+	box-shadow: 0px 0px 0px 1px white, 0px 0px 10px 5px orange;
+}
+footer {
+	width: 1400px;
+	height: 100px;
+	margin: 20px auto;
+	background-color: lightblue;
+	border-radius: 10px;
+  	box-shadow: 0 -4px 5px rgba(0,0,0,0.6) inset, 
+  	0 2px 4px rgba(255,255,255,0.6) inset,
+  	0 0px 4px rgba(0,0,0,0.6),
+  	0 2px 4px rgba(0,0,0,0.6);    
+}
+section div {
+	width: 800px;
+	margin: auto auto;
+	border: 5px solid yellow;
+	border-radius: 100%;
+	border-right-color: orange;
+	border-bottom-color: orange;
+}
+main figure {
+	padding: 50px;
+	width: 420px;
+	height: 420px;
+	margin: auto auto;
+	border-color: yellow;
+	border-radius: 100%;
+}
+main figure img {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	float: left;
+}
+.imgrighttopleftbottom {
+	border-radius: 100% 0 100% 0;
+}
+.imglefttoprightbottom {
+	border-radius: 0 100% 0 100%;
+}
+.figureend {
+	width: 1200px;
+	margin: auto auto;
+}
+.figureend2 {
+	width: 1200px;
+	margin-top: -45px;
+	margin-left: 300px;
+}
+.figimgwidth{
+	outline: 4px solid white;  
+	margin: 30px;
+	width: 150px;
+	height: 150px;
+	transform: rotate(15deg);
+	box-shadow: 0px 8px 3px green, 8px 0px 3px green, 8px 8px 3px green;
+}
+.figimgwidth2 {
+	outline: 4px solid white;  
+	margin: 30px;
+	width: 150px;
+	height: 150px;
+	transform: rotate(195deg);
+	box-shadow: 0px 8px 3px green, -8px 0px 3px green, -8px 8px 3px green;
+	opacity: 0.3;
+}

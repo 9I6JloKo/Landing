@@ -1,0 +1,137 @@
+body {
+	background-image: url("../Images/kanadaFon.png");
+}
+.buttons {
+	margin: 0px 450px;
+	padding: 0px 20px;
+	background-image: url(../Images/darkWood.jpg);
+	text-align: center;
+	text-decoration: unset;
+	border-style: solid;
+	border-radius: 10%;
+	border-color: lightgreen;
+	border-width: 2px;
+	word-spacing: 10px;
+}
+.buttons2 {
+	text-decoration: unset;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 15px 25px;
+	padding: 15px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	transition: 0.2s;
+}
+p a {
+	border: 1px solid blue;
+	border-radius: 10%;
+	background-color: lightblue
+
+}
+p a:hover {
+	background-color: white;
+}
+.kanadaflag {
+	width: 47px;
+	height: 30px;
+}
+h1 {
+	font-family: "Roboto";
+	font-size: 60px;
+	color:  rgb(35,99,150); /* тон синего */
+  	margin: 30px 60px;
+  	padding: 10px;
+  	background-color: #A6D8CB; /* тон бирюзового? */
+  	text-align: center;
+  	border-radius: 10%;
+	box-shadow: 1px 1px 25px green;
+}
+h2 {
+	font-family: "Roboto";
+	font-size: 40px;
+	color:  rgb(35,99,150); /* тон синего */
+  	margin: 30px 80px;
+  	padding: 10px;
+  	background-color: #A6D8FB; /* голубой */
+  	text-align: center;
+  	border-radius: 10%;
+	box-shadow: 1px 1px 1px grey;
+}
+h3 {
+	font-family: "Roboto";
+	font-size: 30px;
+	color:  rgb(35,99,150); /* тон синего */
+  	margin: 30px 115px;
+  	padding: 8px;
+  	background-color: #ecd4fc; /* серо-буро-малиновый? */
+  	text-align: center;
+  	border-radius: 10%;
+  	box-shadow: 1px 1px 1px grey;
+}
+li h4 {
+	font-family: "Roboto";
+	font-size: 25px;
+	color:  rgb(35,99,150); /* тон синего */
+	text-align: center;
+	background-color: lightblue;
+	margin: 5px 505px 5px 505px;
+	border-radius: 10%;
+	box-shadow: 0px 1px 1px grey;
+}
+p {
+	background-color: white;
+	border-radius: 5%;
+  	margin: 10px 300px;
+  	padding: 10px 30px;
+	font-family: "Roboto";
+	border-color: red;
+	border-style: groove;
+	text-align: justify;
+	font-size: 25px;
+	color:  rgb(35,99,150); /* тон синего */
+	box-shadow: 0px 0px 10px grey; 
+}
+ol {
+	list-style-type: unset;
+	list-style-position:inside;
+    padding-left: 0;
+}
+ul{
+	list-style-position:inside;
+    padding-left: 0;
+}
+img {
+	width: 700px;
+	border-radius: 5%;
+	box-shadow: 0 0 5px grey;
+}
+.picCenter {
+	text-align: center;
+	margin: 10px 510px 20px 510px;
+	padding: 30px 0px;
+	box-shadow: 1px 1px 1px grey;
+}
+.imgsmaller {
+	/* навигация */
+	position: fixed;
+	bottom: 100px;
+	right: 10px;
+	width: 100px;
+	opacity: 0.7;
+	box-shadow: unset;
+}
+.imgsmaller2 {
+	/* навигация */
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 100px;
+	opacity: 0.7;
+	transform: rotate(180deg);
+	box-shadow: unset;
+}
+html {
+	scroll-behavior: smooth;
+}

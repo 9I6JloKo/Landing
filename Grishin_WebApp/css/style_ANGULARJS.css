@@ -1,0 +1,141 @@
+body {
+	background: linear-gradient(90deg, lightblue, rgb(145,238,140));
+}
+.wrapper {
+	width: 1380px;
+	margin-left: 254px;
+	overflow: visible;
+	float: left;
+	font-family: "Tahoma";
+	background-color: white;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+h1 {
+	font-size: 40px;
+	padding-left: 200px;
+	padding-bottom: 25px;
+	text-align: center;
+	border-radius: 50px;
+	border-bottom: 2px solid green;
+	border-bottom-style: dotted;
+	color: red;
+	text-shadow: 1px 1px 1px black,
+	0px 1px 1px black,-1px 1px 1px black,
+	-1px 0px 1px black,-1px -1px 1px black,
+	0px -1px 1px black,1px -1px 1px black, 1px 0px 1px black;
+	transition-duration: 0.1s;
+}
+h1:hover {
+	text-shadow: 2px 2px 2px black,
+	0px 2px 2px black,-2px 2px 2px black,
+	-2px 0px 2px black,-2px -2px 2px black,
+	0px -2px 2px black,2px -2px 2px black, 2px 0px 2px black;
+	letter-spacing: 60px;
+	padding-left: 260px;
+}
+h2 {
+	color: lightgreen;
+	text-shadow: 1px 1px 1px black,
+	0px 1px 1px black,-1px 1px 1px black,
+	-1px 0px 1px black,-1px -1px 1px black,
+	0px -1px 1px black,1px -1px 1px black, 1px 0px 1px black;
+}
+aside {
+	position: sticky;
+	top: 0px;
+	margin-left: 10px;
+	float: left;
+	width: 140px;
+	height: 230px;
+	top: 8px;
+	margin-right: 10px;
+	background: radial-gradient(at bottom, #FEFFFF, #A7CECC);
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px grey,
+	0px 1px 1px grey,-1px 1px 1px grey,
+	-1px 0px 1px grey,-1px -1px 1px grey,
+	0px -1px 1px grey,1px -1px 1px grey, 1px 0px 1px grey;
+}
+nav {
+	text-align: center;
+}
+nav p {
+	line-height: 10px;
+	transition-duration: 0.3s;
+	padding: 5px 0px;
+	margin: 11px 5px;
+	color: lightblue;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 1px black,
+	0px 1px 1px black,-1px 1px 1px black,
+	-1px 0px 1px black,-1px -1px 1px black,
+	0px -1px 1px black,1px -1px 1px black, 1px 0px 1px black;
+}
+nav p:hover {
+	background-color: white;
+	border-radius: 50px;
+}
+a {
+	text-decoration: unset;
+}
+main {
+	float: left;
+	width: 1110px;
+	background: linear-gradient(90deg, #A7CECA, lightgreen);
+	padding: 0px 50px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px grey,
+	0px 1px 1px grey,-1px 1px 1px grey,
+	-1px 0px 1px grey,-1px -1px 1px grey,
+	0px -1px 1px grey,1px -1px 1px grey, 1px 0px 1px grey;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+main p {
+	font-size: 17px;
+	margin: 10px -20px;
+	line-height: 25px;
+	padding: 10px 20px;
+	background-color: white;
+	border-radius: 10px;
+}
+main ul {
+	background-color: white;
+	margin: 10px -20px;
+	padding: 10px 40px;
+	border-radius: 10px;
+}
+figure {
+	text-align: center;
+}
+.piclast {
+	height: 200px;
+	width: 800px;
+	transition-duration: 0.5s;
+}
+.piclast:hover {
+	width: 1000px;
+	height: 250px;
+}
+hr {
+	margin-bottom: 200px;
+}
+.imgsmaller {
+	position: fixed;
+	right: 10px;
+	bottom: 85px;
+	width: 80px;
+	opacity: 0.7;
+}
+.imgsmaller2 {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 80px;
+	opacity: 0.7;
+	transform: rotate(180deg);
+}
+html {
+	scroll-behavior: smooth;
+}
